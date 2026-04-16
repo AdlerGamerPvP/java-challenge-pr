@@ -9,8 +9,21 @@ Bem-vindo(a) ao repositório de desafios Java! Aqui você vai praticar **Estrutu
 1. Faça um **fork** deste repositório
 2. Escolha **um exercício** da lista abaixo que ainda não foi resolvido por outro aluno
 3. Leia o enunciado no arquivo `exercicios/XX.md`
-4. Crie o arquivo `exercicios/XX.java` com a sua solução
-5. Faça o **commit** e abra um **Pull Request**
+4. Crie uma **branch** com o seu nome e o número do exercício:
+   ```bash
+   git checkout -b seu-nome/exercicio-XX
+   ```
+5. Crie o arquivo `exercicios/XX.java` com a sua solução
+6. Faça o **commit** com uma mensagem descritiva:
+   ```bash
+   git add exercicios/XX.java
+   git commit -m "feat: solução do exercício XX - Título do Exercício"
+   ```
+7. Suba a branch para o seu repositório:
+   ```bash
+   git push origin seu-nome/exercicio-XX
+   ```
+8. Abra um **Pull Request** para a branch `develop` deste repositório com o título: `feat: exercício XX - Seu Nome`
 
 ---
 
